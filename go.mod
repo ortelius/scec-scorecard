@@ -6,7 +6,7 @@ require (
 	github.com/arangodb/go-driver/v2 v2.0.3
 	github.com/gofiber/fiber/v2 v2.52.0
 	github.com/ortelius/scec-commons v0.1.26
-	github.com/swaggo/swag v1.16.2
+	github.com/swaggo/swag v1.16.3
 )
 
 require (
@@ -30,7 +30,7 @@ require (
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
 	github.com/go-openapi/spec v0.20.9 // indirect
 	github.com/go-openapi/swag v0.22.4 // indirect
-	github.com/gofiber/swagger v0.1.14
+	github.com/gofiber/swagger v1.0.0
 	github.com/google/uuid v1.5.0 // indirect
 	github.com/ipfs/go-cid v0.4.1 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
