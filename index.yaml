@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   scec-scorecard:
   - apiVersion: v2
+    appVersion: 11.0.425
+    created: "2024-03-07T22:22:49.661555814Z"
+    description: Domain microservice
+    digest: 95621220c3739973aefda8eb463d2618b4d427091bd5b4bca776c6c6292a7ebb
+    icon: https://ortelius.github.io/ortelius-charts/logo.png
+    name: scec-scorecard
+    type: application
+    urls:
+    - https://github.com/ortelius/scec-scorecard/releases/download/scec-scorecard-11.0.425/scec-scorecard-11.0.425.tgz
+    version: 11.0.425
+  - apiVersion: v2
     appVersion: 11.0.423
     created: "2024-03-06T02:14:20.47213797Z"
     description: Domain microservice
@@ -1926,4 +1937,4 @@ entries:
     urls:
     - https://github.com/ortelius/scec-scorecard/releases/download/scec-scorecard-11.0.10/scec-scorecard-11.0.10.tgz
     version: 11.0.10
-generated: "2024-03-06T02:14:20.4718167Z"
+generated: "2024-03-07T22:22:49.661224814Z"
