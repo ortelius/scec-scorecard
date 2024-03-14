@@ -5,20 +5,21 @@ go 1.20
 require (
 	github.com/arangodb/go-driver/v2 v2.0.3
 	github.com/gofiber/fiber/v2 v2.52.2
-	github.com/ortelius/scec-commons v0.1.26
+	github.com/ortelius/scec-commons v0.1.30
 	github.com/swaggo/swag v1.16.3
 )
 
 require (
+	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
 	github.com/dchest/siphash v1.2.3 // indirect
 	github.com/kkdai/maglev v0.2.0 // indirect
 	github.com/rogpeppe/go-internal v1.11.0 // indirect
-	github.com/rs/zerolog v1.31.0 // indirect
+	github.com/rs/zerolog v1.32.0 // indirect
 	github.com/sanity-io/litter v1.5.5 // indirect
 	github.com/swaggo/files/v2 v2.0.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.26.0 // indirect
-	golang.org/x/net v0.17.0 // indirect
+	go.uber.org/zap v1.27.0 // indirect
+	golang.org/x/net v0.22.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 )
 
@@ -31,11 +32,11 @@ require (
 	github.com/go-openapi/spec v0.20.9 // indirect
 	github.com/go-openapi/swag v0.22.4 // indirect
 	github.com/gofiber/swagger v1.0.0
-	github.com/google/uuid v1.5.0 // indirect
+	github.com/google/uuid v1.6.0 // indirect
 	github.com/ipfs/go-cid v0.4.1 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/klauspost/compress v1.17.2 // indirect
-	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -54,8 +55,8 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.51.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
-	golang.org/x/crypto v0.14.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/crypto v0.21.0 // indirect
+	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/tools v0.14.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.2.1 // indirect
