@@ -1,63 +1,64 @@
 # Ortelius v11 Domain Microservice
+
+> Version 11.0.0
+
 RestAPI for the Domain Object
 
-## Version: 11.0.0
+## Path Table
 
-### Terms of service
-<http://swagger.io/terms/>
+| Method | Path | Description |
+| --- | --- | --- |
+| GET | [/msapi/domain](#getmsapidomain) | Get a List of Domains |
+| POST | [/msapi/domain](#postmsapidomain) | Create a Domain |
+| GET | [/msapi/domain/:key](#getmsapidomainkey) | Get a Domain |
 
-**Contact information:**
-Ortelius Google Group
-ortelius-dev@googlegroups.com
+## Reference Table
 
-**License:** [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+| Name | Path | Description |
+| --- | --- | --- |
 
----
-### /msapi/domain
+## Path Details
 
-#### GET
-##### Summary
+***
 
+### [GET]/msapi/domain
+
+- Summary  
 Get a List of Domains
 
-##### Description
-
+- Description  
 Get a list of domains for the user.
 
-##### Responses
+#### Responses
 
-| Code | Description |
-|------|-------------|
-| 200  | OK          |
+- 200 OK
 
-#### POST
-##### Summary
+***
 
+### [POST]/msapi/domain
+
+- Summary  
 Create a Domain
 
-##### Description
-
+- Description  
 Create a new Domain and persist it
 
-##### Responses
+#### Responses
 
-| Code | Description |
-|------|-------------|
-| 200  | OK          |
+- 200 OK
 
-### /msapi/domain/:key
+***
 
-#### GET
-##### Summary
+### [GET]/msapi/domain/:key
 
+- Summary  
 Get a Domain
 
-##### Description
-
+- Description  
 Get a domain based on the _key or name.
 
-##### Responses
+#### Responses
 
-| Code | Description |
-|------|-------------|
-| 200  | OK          |
+- 200 OK
+
+## References
