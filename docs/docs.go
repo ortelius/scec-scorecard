@@ -87,11 +87,11 @@ const docTemplate = `{
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
 	Version:          "11.0.0",
-	Host:             "localhost:3000",
+	Host:             "localhost:8080",
 	BasePath:         "/msapi/domain",
 	Schemes:          []string{},
 	Title:            "Ortelius v11 Domain Microservice",
-	Description:      "RestAPI for the Domain Object",
+	Description:      "RestAPI for the Domain Object\n![Release](https://img.shields.io/github/v/release/ortelius/scec-scorecard?sort=semver)\n![license](https://img.shields.io/github/license/ortelius/scec-scorecard)\n\n![Build](https://img.shields.io/github/actions/workflow/status/ortelius/scec-scorecard/build-push-chart.yml)\n[![MegaLinter](https://github.com/ortelius/scec-scorecard/workflows/MegaLinter/badge.svg?branch=main)](https://github.com/ortelius/scec-scorecard/actions?query=workflow%3AMegaLinter+branch%3Amain)\n![CodeQL](https://github.com/ortelius/scec-scorecard/workflows/CodeQL/badge.svg)\n[![OpenSSF-Scorecard](https://api.securityscorecards.dev/projects/github.com/ortelius/scec-scorecard/badge)](https://api.securityscorecards.dev/projects/github.com/ortelius/scec-scorecard)\n\n![Discord](https://img.shields.io/discord/722468819091849316)",
 	InfoInstanceName: "swagger",
 	SwaggerTemplate:  docTemplate,
 	LeftDelim:        "{{",
