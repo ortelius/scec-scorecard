@@ -16,7 +16,7 @@ import (
 )
 
 var logger = database.InitLogger()
-var dbconn = database.InitializeDB("evidence")
+var dbconn = database.InitializeDatabase()
 
 // GetDomains godoc
 // @Summary Get a List of Domains
