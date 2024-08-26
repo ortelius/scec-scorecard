@@ -183,7 +183,7 @@ func fetchScoreCardWithCLI(repoURL, commitSha string) *model.Scorecard {
 	var scorecard model.Scorecard
 	var out strings.Builder
 
-	cmd := exec.Command("scorecard", "--repo="+repoURL, "--commit="+commitSha, "--format", "json")
+	cmd := exec.Command("scorecard", "--repo="+repoURL, "--commit="+commitSha, "--format", "json") // #nosec G204
 	cmd.Stdout = &out
 
 	err := cmd.Run()
