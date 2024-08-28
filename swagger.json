@@ -1,8 +1,8 @@
 {
     "swagger": "2.0",
     "info": {
-        "description": "RestAPI for the Domain Object\n![Release](https://img.shields.io/github/v/release/ortelius/scec-scorecard?sort=semver)\n![license](https://img.shields.io/github/license/ortelius/.github)\n\n![Build](https://img.shields.io/github/actions/workflow/status/ortelius/scec-scorecard/build-push-chart.yml)\n[![MegaLinter](https://github.com/ortelius/scec-scorecard/workflows/MegaLinter/badge.svg?branch=main)](https://github.com/ortelius/scec-scorecard/actions?query=workflow%3AMegaLinter+branch%3Amain)\n![CodeQL](https://github.com/ortelius/scec-scorecard/workflows/CodeQL/badge.svg)\n[![OpenSSF-Scorecard](https://api.securityscorecards.dev/projects/github.com/ortelius/scec-scorecard/badge)](https://api.securityscorecards.dev/projects/github.com/ortelius/scec-scorecard)\n\n![Discord](https://img.shields.io/discord/722468819091849316)",
-        "title": "Ortelius v11 Domain Microservice",
+        "description": "RestAPI for the Scorecard Object\n![Release](https://img.shields.io/github/v/release/ortelius/scec-scorecard?sort=semver)\n![license](https://img.shields.io/github/license/ortelius/.github)\n\n![Build](https://img.shields.io/github/actions/workflow/status/ortelius/scec-scorecard/build-push-chart.yml)\n[![MegaLinter](https://github.com/ortelius/scec-scorecard/workflows/MegaLinter/badge.svg?branch=main)](https://github.com/ortelius/scec-scorecard/actions?query=workflow%3AMegaLinter+branch%3Amain)\n![CodeQL](https://github.com/ortelius/scec-scorecard/workflows/CodeQL/badge.svg)\n[![OpenSSF-Scorecard](https://api.securityscorecards.dev/projects/github.com/ortelius/scec-scorecard/badge)](https://api.securityscorecards.dev/projects/github.com/ortelius/scec-scorecard)\n\n![Discord](https://img.shields.io/discord/722468819091849316)",
+        "title": "Ortelius v11 Scorecard Microservice",
         "termsOfService": "http://swagger.io/terms/",
         "contact": {
             "name": "Ortelius Google Group",
@@ -14,12 +14,12 @@
         },
         "version": "11.0.0"
     },
-    "host": "localhost:8080",
-    "basePath": "/msapi/domain",
+    "host": "localhost:3000",
+    "basePath": "/msapi/scorecard",
     "paths": {
-        "/msapi/domain": {
+        "/msapi/scorecard/:key": {
             "get": {
-                "description": "Get a list of domains for the user.",
+                "description": "Get a scorecard for a repo and commit sha",
                 "consumes": [
                     "*/*"
                 ],
@@ -27,47 +27,9 @@
                     "application/json"
                 ],
                 "tags": [
-                    "domain"
+                    "scorecard"
                 ],
-                "summary": "Get a List of Domains",
-                "responses": {
-                    "200": {
-                        "description": "OK"
-                    }
-                }
-            },
-            "post": {
-                "description": "Create a new Domain and persist it",
-                "consumes": [
-                    "application/json"
-                ],
-                "produces": [
-                    "application/json"
-                ],
-                "tags": [
-                    "domain"
-                ],
-                "summary": "Create a Domain",
-                "responses": {
-                    "200": {
-                        "description": "OK"
-                    }
-                }
-            }
-        },
-        "/msapi/domain/:key": {
-            "get": {
-                "description": "Get a domain based on the _key or name.",
-                "consumes": [
-                    "*/*"
-                ],
-                "produces": [
-                    "application/json"
-                ],
-                "tags": [
-                    "domain"
-                ],
-                "summary": "Get a Domain",
+                "summary": "Get the OSSF scorecard for a repo",
                 "responses": {
                     "200": {
                         "description": "OK"

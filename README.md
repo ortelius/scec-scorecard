@@ -1,8 +1,8 @@
-# Ortelius v11 Domain Microservice
+# Ortelius v11 Scorecard Microservice
 
 > Version 11.0.0
 
-RestAPI for the Domain Object
+RestAPI for the Scorecard Object
 ![Release](https://img.shields.io/github/v/release/ortelius/scec-scorecard?sort=semver)
 ![license](https://img.shields.io/github/license/ortelius/.github)
 
@@ -17,9 +17,7 @@ RestAPI for the Domain Object
 
 | Method | Path | Description |
 | --- | --- | --- |
-| GET | [/msapi/domain](#getmsapidomain) | Get a List of Domains |
-| POST | [/msapi/domain](#postmsapidomain) | Create a Domain |
-| GET | [/msapi/domain/:key](#getmsapidomainkey) | Get a Domain |
+| GET | [/msapi/scorecard/:key](#getmsapiscorecardkey) | Get the OSSF scorecard for a repo |
 
 ## Reference Table
 
@@ -30,41 +28,13 @@ RestAPI for the Domain Object
 
 ***
 
-### [GET]/msapi/domain
+### [GET]/msapi/scorecard/:key
 
 - Summary  
-Get a List of Domains
+Get the OSSF scorecard for a repo
 
 - Description  
-Get a list of domains for the user.
-
-#### Responses
-
-- 200 OK
-
-***
-
-### [POST]/msapi/domain
-
-- Summary  
-Create a Domain
-
-- Description  
-Create a new Domain and persist it
-
-#### Responses
-
-- 200 OK
-
-***
-
-### [GET]/msapi/domain/:key
-
-- Summary  
-Get a Domain
-
-- Description  
-Get a domain based on the _key or name.
+Get a scorecard for a repo and commit sha
 
 #### Responses
 
