@@ -6,7 +6,7 @@ toolchain go1.22.6
 
 require (
 	github.com/gofiber/fiber/v2 v2.52.5
-	github.com/ortelius/scec-commons v0.1.39
+	github.com/ortelius/scec-commons v0.1.43
 	github.com/ossf/scorecard/v5 v5.0.0
 	github.com/swaggo/swag v1.16.3
 	go.uber.org/zap v1.27.0
