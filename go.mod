@@ -4,7 +4,7 @@ go 1.23.4
 
 require (
 	github.com/gofiber/fiber/v2 v2.52.6
-	github.com/ortelius/scec-commons v0.1.46
+	github.com/ortelius/scec-commons v0.1.47
 	github.com/ossf/scorecard/v5 v5.1.1
 	github.com/swaggo/swag v1.16.4
 	go.uber.org/zap v1.27.0
