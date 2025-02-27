@@ -6,7 +6,7 @@ COPY . /app
 RUN go mod tidy; \
     go build -o main .
 
-FROM cgr.dev/chainguard/glibc-dynamic@sha256:334822bb2c72fcd3e1ac4b7021ea32b21d968f1364b4c71d502a0cfe763cec6b
+FROM cgr.dev/chainguard/glibc-dynamic@sha256:cdbc98c185b030bb747a53162c210ca513b8bbb8f12148c2943fb24babc597a3
 
 WORKDIR /app
 
