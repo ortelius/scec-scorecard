@@ -1,6 +1,6 @@
 module github.com/ortelius/scec-scorecard
 
-go 1.24
+go 1.24.6
 
 require (
 	github.com/go-resty/resty/v2 v2.16.5
